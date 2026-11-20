@@ -1,0 +1,12 @@
+# Project exclude paths
+/.gradle/
+/app/build/
+/build/
+
+# Local configuration
+local.properties
+
+# Android Studio / IDE
+.idea/caches/
+.kotlin/
+*.iml

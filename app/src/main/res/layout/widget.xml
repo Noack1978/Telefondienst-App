@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/widgetRoot"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/widget_bg"
+    android:orientation="vertical"
+    android:padding="12dp">
+
+    <TextView
+        android:id="@+id/tvTodayTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#1B1B1F"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvToday"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#1B1B1F"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/tvWeekTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textColor="#1B1B1F"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvWeek"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#44474F"
+        android:textSize="12sp" />
+</LinearLayout>
